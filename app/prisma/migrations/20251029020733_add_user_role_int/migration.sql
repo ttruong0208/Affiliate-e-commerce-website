@@ -1,0 +1,3 @@
+ALTER TABLE users ADD COLUMN role INT NOT NULL DEFAULT 1;
+UPDATE users SET role = 2 WHERE isAdmin = 1;
+ALTER TABLE users DROP COLUMN isAdmin;

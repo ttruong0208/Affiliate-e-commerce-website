@@ -1,0 +1,1 @@
+ALTER TABLE products MODIFY images LONGTEXT NULL;
